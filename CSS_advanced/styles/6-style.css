@@ -37,7 +37,7 @@ a {
 .section-tagline {
     color: var(--color-primary);
 }
-.heading {
+.header {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
