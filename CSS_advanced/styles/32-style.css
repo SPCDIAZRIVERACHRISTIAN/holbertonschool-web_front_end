@@ -50,6 +50,8 @@
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
+    --transition-duration: .3s;
+    --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 *, *::before, *::after {
     box-sizing: border-box;
@@ -295,6 +297,7 @@ ul .row {
 }
 .card-work:hover .card-image {
     transform: scale(1.2);
+    transform: var(–-transition-duration) var(--transition-cubic-bezier);
 }
 .card-work .card-inner {
     position:absolute;
@@ -302,6 +305,7 @@ ul .row {
     left:-0.1rem;
     right:-0.1rem;
     z-index: 1;
+    transition: var(–-transition-duration) var(--transition-cubic-bezier);
 }
 .card-work .card-inner:hover {
     background-color: rgba(0, 0, 0, 0.7);
