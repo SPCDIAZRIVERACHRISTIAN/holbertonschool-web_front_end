@@ -74,8 +74,8 @@ a:active {
 }
 .section-footer {
     padding: var(--section-footer-padding);
-    margin-right: var(--section-footer-align);
-    margin-left: var(--section-footer-align);
+    text-align: var(--section-footer-align);
+
 }
 .section-title{
     font-family: var(--font-family-title);
@@ -282,7 +282,7 @@ template {
     display: none;
 }
 .footer {
-    pad: var(--footer-padding);
+    padding: var(--footer-padding);
 }
 /*# sourceMappingURL=normalize.min.css.map */
 
