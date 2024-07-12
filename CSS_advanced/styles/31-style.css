@@ -269,7 +269,7 @@ ul .row {
     position: relative;
     overflow: hidden;
 }
-.card-work .card-image img {
+.card-work .card-image {
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -284,7 +284,7 @@ ul .row {
     z-index: 1;
 }
 .card-work .card-inner:hover {
-    background-color: rgba(0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .card-work .card-title {
     text-align: center;
@@ -298,17 +298,9 @@ ul .row {
     text-decoration: none;
     padding-top: 45%;
 }
-.card-work .card-title a::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-}
 .card-work .card-title:hover {
     opacity: 1;
 }
-
 /*# sourceMappingURL=normalize.min.css.map */
 html {
     line-height: 1.15;
