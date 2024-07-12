@@ -244,6 +244,17 @@ ul .row {
     padding-top: 1rem;
     color: var(--color-primary);
 }
+.card-testimonial .card-quote {
+    position: relative;
+}
+.card-testimonial::before .card-quote {
+    content: \201C;
+    position: absolute;
+    top: -4.5rem;
+    left: -1rem;
+    font-size: 10rem;
+    z-index: -1;
+}
 .section-hero {
     background-size: 90rem auto;
 }
