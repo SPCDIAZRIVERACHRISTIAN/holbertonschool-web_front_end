@@ -158,7 +158,7 @@ ul .row {
     font-size: var(--font-size-small);
     color: var(--color-primary);
 }
-.footer ul {
+.footer > ul {
     text-align: right;
 }
 .footer-address {
@@ -167,7 +167,7 @@ ul .row {
 .social-link {
     display: block;
 }
-.social-link svg {
+.social-link > svg {
     color: var(--text-color);
 }
 [data-section-theme="dark"] {
